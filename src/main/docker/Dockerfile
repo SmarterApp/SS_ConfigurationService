@@ -1,4 +1,4 @@
-FROM anapsix/alpine-java:8_jdk_unlimited
+FROM openjdk:8-jre-alpine
 
 VOLUME /tmp
 ADD docker-startup.sh /
